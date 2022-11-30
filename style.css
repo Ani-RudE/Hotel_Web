@@ -37,7 +37,7 @@ p {
   font-size: 20px;
 }
 
-.btn {
+.button {
   display: inline-block;
   font-size: 18px;
   color: #fff;
@@ -47,12 +47,12 @@ p {
   cursor: pointer;
 }
 
-.btn:hover {
+.button:hover {
   background: #f7c08a;
   color: #333;
 }
 
-.btn-light {
+.button-light {
   background: #f4f4f4;
   color: #333;
 }
