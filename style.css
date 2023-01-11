@@ -59,7 +59,7 @@
 }
 
 .showcase{
-    background-image: url('/Web_Dev/Hotel_Me/Image/showcase.jpg');
+    background-image: url('Image/showcase.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -122,7 +122,7 @@
 .home-info .info-img{
     float: left;
     width: 50%;
-    background: url('/Web_Dev/Hotel_Me/Image/photo-1.jpg')  ;
+    background: url('Image/photo-1.jpg')  ;
     min-height: 100%;
 }
 
