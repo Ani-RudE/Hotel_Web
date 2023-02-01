@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar{
+    background-color: #282A3A;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-logo{
+    line-height: 1.5em;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 15px;
+
+}
+
+.text-logo:any-link:hover{
+    cursor: pointer;
+}
+
+.nav-ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-ul a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+}
+ 
+.nav-right a{
+    padding: 36px 25px;
+}
+
+.nav-right a:any-link:hover{
+    background-color: #464a65;
+}
+
+.showcase-container{
+    margin: auto;
+    max-width: 1100px;
+    
+}
+
+.showcase{
+    background-image: url('Image/showcase.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 600px;
+}
+
+.showcase-content{
+    color: white;
+    text-align: center;
+    /* padding-top: 150px; */
+    padding-top: 160px;
+}
+
+.showcase-content h1{
+    font-size: 50px;
+}
+
+.primary-text{
+    color: #F7C08A;
+}
+
+.btn{
+    background-color: #282A3A;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #F7C08A;
+    color: #282A3A;
+}
+
+.btn-light{
+    background: white;
+    color: #282A3A;
+    font-weight: 600;
+}
+
+.btn-light:hover{
+    background: #F7C08A;
+    color: #282A3A;
+    font-weight: 600;
+}
+
+.lead{
+    font-size: 20px;
+}
+.top-text{
+    padding-bottom: 25px
+}
+
+.home-info{
+    height: 400px;
+}
+
+.home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url('Image/photo-1.jpg')  ;
+    min-height: 100%;
+}
+
+.home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 25px;
+}
+
+.info-content h2{
+    padding-bottom: 10px;
+}
+
+.info-content p{
+    padding-bottom: 40px;
+}
+
+.bg-dark{
+    background-color: #282A3A;
+    color: white;
+    overflow: auto;
+}
+
+.color-box{
+   color: #464a65;
+   color: #282A3A;
+   color: #735F32;
+   color: #C69749;
+   color: #F7C08A;
+}
